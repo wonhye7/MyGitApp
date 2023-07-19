@@ -3,6 +3,9 @@
 */
 console.log('index.js');
 
+function logout(username){
+    console.log('로그아웃');
+}
 function login(username, password) {
     $.ajax({
         type : 'post',           // 타입 (get, post, put 등등)
