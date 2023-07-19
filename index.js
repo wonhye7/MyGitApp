@@ -3,6 +3,10 @@
 */
 console.log('index.js');
 
+function bugfix(){
+    console.log('기능 오류를 수정하는 함수')
+}
+
 function logout(username){
     console.log('로그아웃');
 }
